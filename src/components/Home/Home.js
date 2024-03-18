@@ -5,11 +5,12 @@ import { useEffect, useState } from 'react';
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters';
 import Logo from './LogoAnimation/LogoAnimation';
 import Loader from 'react-loaders';
+import Zlogo from '../../assets/images/ZLogo.png'
 
 const Home = ()=> {
 
     const [letterClass, setLetterClass] = useState('text-animate');
-    const nameArray = ['l','o','b','o','d','a','n'];
+    const nameArray = ['a','i','n',' ','A','b','b','a','s'];
     const jobArray = ['w','e','b',' ','d','e','v','e','l','o','p','e','r','.'];
 
     useEffect(() => {
@@ -32,7 +33,7 @@ const Home = ()=> {
                 <span className={`${letterClass} _13`}>I</span>
                 <span className={`${letterClass} _14`}>'m</span>
 
-                <img src={LogoTitle} alt='develepor'/>
+                <img src={Zlogo} alt='develepor'/>
                 <AnimatedLetters letterClass={letterClass} 
                 strArray={nameArray}
                 idx={15}/>
