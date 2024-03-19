@@ -7,6 +7,11 @@
     z-index :3;
     min-height: 500px;
 
+    @media  screen and (max-width:1000px) {
+        height: 108%;
+        
+    }
+
     .logo{
         display: block;
         padding: 8px 0;
