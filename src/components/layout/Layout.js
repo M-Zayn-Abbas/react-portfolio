@@ -1,6 +1,7 @@
 import { Outlet } from 'react-router-dom';
 import Sidebar from '../Sidebar/Sidebar.js';
 import './index.scss';
+import Project from '../Projects/project.js';
 
 const Layout = ()=> {
     return (
@@ -13,11 +14,12 @@ const Layout = ()=> {
         &lt;body&gt;</span>
 
         <Outlet/>
-        <span className='tags bottom-tags'>
+
+       {/* <span className='tags bottom-tags'>
             &lt;/body&gt;
             <br/>
             <span className='bottom-tag-html'>&lt;/html&gt;</span>
-        </span>
+    </span>*/}
     </div>
     </div>
     )

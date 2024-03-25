@@ -1,9 +1,9 @@
 .home-page {
+
     .text-zone {
         position: absolute;
-        left:10%;
-        top: 50%;
-        transform: translateY(-50%);
+        left:30%;
+        top: 20%;
         width: 40%;
         max-height:90%;
 
@@ -13,6 +13,9 @@
             right: 50%;
             width: 90%;
         }
+
+       
+
        
     }
 
@@ -22,6 +25,29 @@
         margin: 0;
         font-family: 'Coolvetica';
         font-weight: 400;
+        margin-left: 20px;
+
+        @media screen and (max-width: 576px) {
+            font-size: 30px;
+            margin: 0;
+        }
+
+        @media screen and (min-width: 577px) and (max-width: 767px) {
+            margin-left: 5px;
+            
+        }
+
+        @media screen and (min-width: 1001px) and (max-width: 1158px) {
+            font-size: 43px;
+         }
+
+        .webdev{
+            margin-left: 7rem;
+
+            
+        }
+
+        
 
         &::before{
             content :'<h1>';
@@ -58,6 +84,10 @@
             animation: rotateIn 1s linear both;
             animation-delay: 1.4s;
 
+            @media screen and (max-width: 576px) {
+                width: 85px;
+            }
+
         }
     }
 
@@ -69,6 +99,11 @@
         font-family: sans-serif;
         letter-spacing: 3px;
         animation: fadeIn 1s 1.8s backwards;
+        margin-left: 10rem;
+
+        @media screen and (max-width: 576px) {
+            margin-left: 0;
+        }
     }
 
     .flat-button {
@@ -82,9 +117,13 @@
         border : 1px solid #ffd700;
         position: relative;
         top: 25px;
-        float: left;
+       left: 18rem;
         animation: fadeIn 1s 1.8s backwards;
         white-space: nowrap;
+
+        @media screen and (max-width: 576px) {
+            left: 10rem;
+        }
 
         &:hover {
             background: #ffd700;
@@ -94,16 +133,5 @@
     }
 }
 
-.project-container{
-    position: relative;
-    left: 50%;
-    top: 10%;
 
-    @media  screen and (max-width:1000px) {
-        position: relative;
-        top: 80%;
-        left: 20%;
-        
-    }
-}
 
