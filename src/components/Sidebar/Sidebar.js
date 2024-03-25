@@ -1,11 +1,10 @@
 import { Link, NavLink } from 'react-router-dom';
 import './index.scss';
-import LogoS from'../../assets/images/logo-s.png'
-import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faInstagram, faLinkedin, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import Zlogo from '../../assets/images/ZLogo.png'
+import fiver from'../../assets/images/fiverr.png'
 
 
 const Sidebar =() => {
@@ -20,9 +19,14 @@ const Sidebar =() => {
         <NavLink exact="true" activeclassname="active" className="about-link" to="/about">
             <FontAwesomeIcon icon={faUser} color='#4d4d4e'/>
         </NavLink>
-        <NavLink exact="true" activeclassname="active" className="contact-link" to="/contact">
-            <FontAwesomeIcon icon={faEnvelope} color='#4d4d4e'/>
+        <NavLink exact="true" activeclassname="active" className="contact-link" to="https://www.fiverr.com/mzaynabbas_" target='_blank'>
+            <img src={fiver}  style={{
+          width: '23px', 
+          height: 'auto', 
+          
+        }}/>
         </NavLink>
+        
         </nav>
         <ul>
             <li>

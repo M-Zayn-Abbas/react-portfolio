@@ -106,31 +106,7 @@
         }
     }
 
-    .flat-button {
-        color: #ffd700;
-        font-size: 13px;
-        font-family: sans-serif;
-        text-decoration: none;
-        letter-spacing: 4px;
-        font-weight: 400;
-        padding: 10px 18px;
-        border : 1px solid #ffd700;
-        position: relative;
-        top: 25px;
-       left: 18rem;
-        animation: fadeIn 1s 1.8s backwards;
-        white-space: nowrap;
-
-        @media screen and (max-width: 576px) {
-            left: 10rem;
-        }
-
-        &:hover {
-            background: #ffd700;
-            color: #333;
-        }
-
-    }
+   
 }
 
 

@@ -45,7 +45,6 @@ const Home = ()=> {
 
                 </h1>
                 <h2>Wordpress / Frontend / React Develepor</h2>
-                <Link to="contact" className="flat-button">Contact Me</Link>
             </div>
             <div className='project'>
                 <Project/>
