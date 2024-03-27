@@ -33,7 +33,7 @@ const Project = ()=>{
                 
             </div>
             <section className='project-cards'>
-                <a href='www.google.com' target="_blank">
+                <a href='https://cafeprojectcuppacozziness.netlify.app' target="_blank">
                 <div class="grid-item">
                     <img src={pic} alt="cafe" class="image"/>
                         <div class="content">
@@ -44,7 +44,7 @@ const Project = ()=>{
                 </div>
                 </a>
                 
-                <a href='www.google.com' target="_blank">
+                <a href='https://restaurantprojectepicurean.netlify.app' target="_blank">
                 <div class="grid-item">
                     <img src={pic1} alt="epicurean heven" class="image"/>
                         <div class="content">
@@ -55,7 +55,7 @@ const Project = ()=>{
                 </div>
                 </a>
 
-                <a href='www.google.com' target="_blank">
+                <a href='https://fitflexgymproject.netlify.app' target="_blank">
                 <div class="grid-item">
                     <img src={gym} alt="gym" class="image"/>
                         <div class="content">
@@ -66,7 +66,7 @@ const Project = ()=>{
                 </div>
                 </a>
 
-                <a href='www.google.com' target="_blank">
+                <a href='https://vibewearproject.netlify.app' target="_blank">
                 <div class="grid-item">
                     <img src={clothing} alt="fashion" class="image"/>
                         <div class="content">
