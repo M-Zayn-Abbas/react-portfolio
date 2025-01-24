@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import './projext.scss';
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters';
-import pic from '../../assets/images/first.png'
+import pic from '../../assets/images/videoeditor.png'
 import pic1 from '../../assets/images/pic1.png'
 import gym from '../../assets/images/gym.png'
 import clothing from '../../assets/images/clothing.png'
@@ -33,16 +33,17 @@ const Project = ()=>{
                 
             </div>
             <section className='project-cards'>
-                <a href='https://cafeprojectcuppacozziness.netlify.app' target="_blank">
+                <a href='https://mohsimplify.com/' target="_blank">
                 <div class="grid-item">
                     <img src={pic} alt="cafe" class="image"/>
                         <div class="content">
-                            <h3>A Cafe Website</h3>
-                                 <p>Building digital cafés with WordPress magic</p>
+                            <h3>Video Editor Portfolio</h3>
+                                 <p>My recent client for whom I built a portfolio</p>
                          </div>
                      
                 </div>
                 </a>
+                
                 
                 <a href='https://restaurantprojectepicurean.netlify.app' target="_blank">
                 <div class="grid-item">

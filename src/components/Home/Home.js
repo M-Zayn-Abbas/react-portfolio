@@ -44,7 +44,7 @@ const Home = ()=> {
                 </span>
 
                 </h1>
-                <h2>Wordpress / Frontend / React Develepor</h2>
+                <h2>Mern Stack / Wordpress / Wix Developer</h2>
             </div>
             <div className='project'>
                 <Project/>
