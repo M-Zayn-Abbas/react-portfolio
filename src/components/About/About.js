@@ -1,4 +1,4 @@
-import './About.scss';
+import './About.css';
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters'
 import { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -20,7 +20,7 @@ const About = () => {
 
     return (
         <>
-             <div className='container about-page'>
+             <div className='about-page'>
             <div className='text-zone'>
                 <h1>
                     <AnimatedLetters
