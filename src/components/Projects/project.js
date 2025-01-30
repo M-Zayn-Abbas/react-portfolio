@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import './projext.scss';
+import './projext.css';
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters';
 import pic from '../../assets/images/videoeditor.png'
 import pic1 from '../../assets/images/pic1.png'

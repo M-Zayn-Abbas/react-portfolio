@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import './Home.scss'
+import './Home.css'
 import { useEffect, useState } from 'react';
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters';
 import Loader from 'react-loaders';
@@ -47,7 +47,7 @@ const Home = ()=> {
                 <h2>Mern Stack / Wordpress / Wix Developer</h2>
             </div>
             <div className='project'>
-                <Project/>
+                <Project className='project'/>
             </div>
            
         </div>

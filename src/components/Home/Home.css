@@ -1,0 +1,130 @@
+.home-page .text-zone {
+  position: absolute;
+  left: 30%;
+  top: 20%;
+  width: 40%;
+  max-height: 90%;
+}
+
+
+
+.home-page h1 .webdev {
+  margin-left: 7rem;
+}
+
+
+
+
+.home-page h1::before {
+  content: '<h1>';
+  font-family: 'La Belle Aurore';
+  color: #ffd700;
+  font-size: 18px;
+  position: absolute;
+  margin-top: -40px;
+  left: 15px;
+  opacity: 0.6;
+}
+
+
+.home-page h1::after {
+  content: '<h1/>';
+  font-family: 'La Belle Aurore';
+  color: #ffd700;
+  font-size: 18px;
+  position: absolute;
+  margin-top: 18px;
+  margin-left: 20px;
+  animation: fadeIn 1s 1.7s backwards;
+  opacity: 0.6;
+}
+
+
+
+.home-page h1 img {
+  width: 100px;
+  margin-left: 0;
+  margin-bottom: -30px;
+  margin-right: -28px;
+  opacity: 0;
+  height: auto;
+  animation: rotateIn 1s linear both;
+  animation-delay: 1.4s;
+}
+
+
+
+
+.home-page h2 {
+  color: #fff;
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 11px;
+  font-family: sans-serif;
+  letter-spacing: 3px;
+  animation: fadeIn 1s 1.8s backwards;
+  margin-left: 10rem;
+}
+
+.home-page h1 {
+  color: #fff;
+  font-size: 48px;
+  margin: 0;
+  font-family: 'Coolvetica';
+  font-weight: 400;
+  margin-left: 20px;
+  position: relative;
+}
+
+
+
+
+
+@media screen and (max-width: 1074px) {
+  .home-page .text-zone {
+    left: 20%;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home-page .text-zone {
+    
+  }
+
+  .home-page h1 {
+    font-size: 36px;
+    margin-left: 10px;
+  }
+
+  .home-page h1 .webdev {
+    margin-left: 3rem;
+  }
+
+  .home-page h1 img {
+    width: 80px;
+  }
+
+  .home-page h2 {
+    font-size: 10px;
+    margin-left: 5rem;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .home-page .text-zone {
+    
+  }
+
+  .text-zone h1 span{
+    font-size: 8vw;
+    text-align: center;
+  }
+
+  .home-page h2 {
+    font-size: 8px;
+    margin-left: 0;
+  }
+
+}
+

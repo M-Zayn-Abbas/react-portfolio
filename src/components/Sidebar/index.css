@@ -1,0 +1,101 @@
+.nav-bar {
+  background-color: #1c1b23;
+  width: 60px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15px;
+  transition: all 0.3s ease;
+}
+
+.nav-bar .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+.nav-bar .logo img {
+  width: 100%;
+  height: auto;
+}
+
+.nav-bar nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.nav-bar nav a {
+  font-size: 22px;
+  color: #4d4d4e;
+  padding: 12px 0;
+  transition: color 0.3s;
+}
+
+.nav-bar nav a:hover {
+  color: yellow;
+}
+
+.nav-bar nav a.active {
+  color: #ffd700;
+}
+
+.nav-bar ul {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
+
+.nav-bar ul li {
+  margin: 5px 0;
+}
+
+.nav-bar ul li a {
+  font-size: 18px;
+  color: #4d4d4e;
+  transition: color 0.3s;
+}
+
+.nav-bar ul li a:hover {
+  color: yellow;
+}
+
+/* Responsive Design for screens less than 768px */
+@media screen and (max-width: 768px) {
+  .nav-bar {
+    width: 8vw;
+    padding-top: 10px;
+  }
+
+  .nav-bar .logo {
+    width: 40px;
+    margin-bottom: 5px;
+  }
+
+  .nav-bar nav a {
+    font-size: 18px;
+    padding: 10px 0;
+  }
+
+  .nav-bar ul {
+    bottom: 10px;
+  }
+
+  .nav-bar ul li a {
+    font-size: 16px;
+  }
+}
