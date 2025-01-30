@@ -2,9 +2,9 @@ import './About.css';
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters'
 import { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAngular, faCss3, faGitAlt, faHtml5, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons';
+import { faWordpress, faCss3, faGitAlt, faHtml5, faWix, faReact, faNode } from '@fortawesome/free-brands-svg-icons';
 import Loader from 'react-loaders';
-
+import img1 from '../../assets/images/mongodb.png'
 const About = () => {
 
     const [letterClass, setLetterClass] = useState('text-animate');
@@ -29,18 +29,21 @@ const About = () => {
                     idx={15}
                     />
                 </h1>
-                <p>As a frontend developer, I specialize in crafting engaging user experiences using HTML, CSS, and JavaScript. I'm dedicated to delivering sleek designs and efficient code that enhance my clients' digital presence.</p>
-                <p>In WordPress development, I create dynamic websites with custom themes and plugins, tailored to meet each project's unique needs. I stay ahead of industry trends to ensure my solutions are cutting-edge and future-proof.</p>
-                <p>Combining frontend proficiency with WordPress expertise, I offer comprehensive web development services that prioritize aesthetics and functionality. Whether it's a portfolio site or an e-commerce platform, I strive to exceed expectations with every project.</p>
+                <p>As a <strong>MERN stack developer</strong>, I specialize in building dynamic web applications using MongoDB, Express, React, and Node.js. I focus on creating seamless and engaging user experiences while ensuring efficient and scalable solutions. I also have experience working with <strong>Wix</strong> and <strong>WordPress</strong>, creating custom websites with tailored themes and plugins to meet my clients' specific needs.</p>
+
+<p>Whether it's a portfolio site, business website, or any other type of web presence, I offer comprehensive development services that prioritize both <strong>aesthetics and functionality</strong>.</p>
+
+<p>With a commitment to staying ahead of industry trends, I strive to deliver cutting-edge solutions that exceed expectations for every project.</p>
+
             </div>
 
             <div className='stage-cube-cont'>
                 <div className='cubespinner'>
                     <div className='face1'>
-                        <FontAwesomeIcon icon={faAngular} color='#DD0031'/>
+                        <FontAwesomeIcon icon={faNode} color='#43853D'/>
                     </div>
                     <div className='face2'>
-                        <FontAwesomeIcon icon={faHtml5} color='#F06529'/>
+                        <FontAwesomeIcon icon={faWordpress} color='#21759B'/>
                     </div>
                     <div className='face3'>
                         <FontAwesomeIcon icon={faCss3} color='#28A4D9'/>
@@ -49,10 +52,10 @@ const About = () => {
                         <FontAwesomeIcon icon={faReact} color='#5ED4F4'/>
                     </div>
                     <div className='face5'>
-                        <FontAwesomeIcon icon={faJsSquare} color='#EFD81D'/>
+                        <FontAwesomeIcon icon={faWix} color='#000'/>
                     </div>
                     <div className='face6'>
-                        <FontAwesomeIcon icon={faGitAlt} color='#EC4D28'/>
+                        <img src={img1}></img>
                     </div>   
                 </div>
             </div>
